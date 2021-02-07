@@ -23,8 +23,8 @@ function inputSearchMeal(e) {
                 } else {
                     mealsElement.innerHTML = data.meals
                         .map(meal => `<div class="meal">
-                <img id="imgaes" src ="${meal.strMealThumb}" alt="${meal.strMeal}"/>
-
+                <img  id="imgaes" src ="${meal.strMealThumb}" alt="${meal.strMeal}"/>
+                    
                 <div class="meal-info"> 
                 
                  <h3> ${meal.strMeal} </h3> 
@@ -41,6 +41,6 @@ function inputSearchMeal(e) {
         alert("Please Write Something in the search Box ")
     }
 }
-
+// guji
 
 submitBtn.addEventListener("submit", inputSearchMeal);

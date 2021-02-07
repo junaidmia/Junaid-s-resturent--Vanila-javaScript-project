@@ -59,8 +59,9 @@
   .meal img{
       width: 100%;
       height: 100%;
-      border: 4px solid rgb(77, 41, 41);
+      border: 4px solid rgb(248, 244, 244);
       border-radius: 2px;
+      margin-bottom: 50px;
   }
   .meal-info{
       position: absolute;
