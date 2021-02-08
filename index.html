@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meal Finder</title>
+    <title >Junaid's Restaurant</title>
+    <link rel="shortcut icon" type="image/jpg" href="res.png"/>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -14,8 +15,8 @@
     <div class="container">
       <img id="image" src="res.png" alt="">
       <div>
-        <h2>Welcome to our API Resturent</h2>
-        <h3>Find your Meal</h3>
+        <h2 class="welcome">Welcome to Junaid's Restaurant</h2>
+        <h3 class="find">Find your Meal</h3>
       </div>
    
 
@@ -23,7 +24,7 @@
       <div class="flex">
 
         <form class="flex" id="submit">
-          <input type="text" id="search" placeholder="Search for meal" />
+          <input type="text" id="search" placeholder="Search for Meal" />
           
           <button class="search-btn" type="submit">
             <i class="fa fa-search"></i>
@@ -34,6 +35,10 @@
 
 
       <div id="heading-of-result"></div>
+
+      <div id="meals-information">
+
+      </div>
 
       <div id="meals" class="meals"></div>
 

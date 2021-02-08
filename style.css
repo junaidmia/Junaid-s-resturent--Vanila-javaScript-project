@@ -2,7 +2,7 @@
     box-sizing: border-box;
   }
   body {
-    background: #f3fa9583;
+    background: #f3d9d994;
     color: rgb(30, 36, 20);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
@@ -22,7 +22,7 @@
   input,
   button {
      border: 1px solid rgb(151, 149, 149); 
-    border-radius: 20px;
+    border-radius: 5px;
     font-size: 20px;
     padding: 8px 10px;
     margin-left: 10px;
@@ -56,28 +56,77 @@
       text-align: center;
 
   }
-  .meal img{
+  .meal{
       width: 100%;
       height: 100%;
-      border: 4px solid rgb(248, 244, 244);
-      border-radius: 2px;
-      margin-bottom: 50px;
+      border: 2px solid rgba(179, 74, 74, 0.493);
+      border-radius:10px;
+      margin-bottom: ;
   }
   .meal-info{
-      position: absolute;
-      top: 0;
-      left: 0;
-      background: rgba(0, 0, 0, 0.486);
-      display: flex;
-      width: 100%;
-      height: 100%;
-      align-items:flex-end;
       justify-content: center;
-      color: rgb(255, 255, 255);
       text-align: center;
-      transition: opacity 0.2s ease-in;
-      opacity: 0;
+      border: 1px solid rgb(210, 230, 238);
+      border-radius: 10px;
+      background: rgba(255, 249, 249, 0.575);
+      
   }
   .meal:hover .meal-info{
     opacity: 1;
   }
+  .image-div{
+    width: 100%;
+    height: 143px;
+    border-radius: 10px;
+  }
+  #images{
+    width:100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  #meals-information img{
+    height: 50%;
+    width: 80%;
+    border: 5px solid rgba(192, 178, 178, 0.507);
+    border-radius: 20px;
+  }
+  #inf{
+    border: 5px solid rgba(200, 176, 176, 0.459);
+    height: 30%;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 30px;
+    margin-top: 26px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+  }
+  .welcome{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .find{
+    background-color: rgba(100, 148, 237, 0.527);
+    border-radius: 20px;
+    width: 200px;
+    padding: 10px;
+    margin-left: 27%;
+  }
+  #result{
+    background-color: rgba(255, 99, 71, 0.404);
+    border-radius: 20px;
+    padding: 15px;
+  }
+  .mealName{
+    background-color: rgba(233, 247, 170, 0.459);
+    width: 200px;
+    padding: 10px;
+    margin-left: 73px;
+    border-radius: 20px;
+  }
+  .ingredients{
+    color:rgba(255, 0, 0, 0.924);
+  }
+#country{
+  color:rgb(101, 5, 255)
+}
